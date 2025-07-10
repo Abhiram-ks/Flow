@@ -16,5 +16,5 @@ This project is ideal for demonstrating advanced Flutter skills, including state
 * Error Handling: Handles network failures, invalid data, and loading states gracefully.
 * Optional Unit Tests: Demonstrates testability of core logic and service layers (if implemented).
 
-- Tools & Technologies Used(🛠️)
+# Tools & Technologies Used(🛠️)
 * Flutter	| Dart	Programming language | HTTP / Dio	Networking & API calls | Bloc / Cubit	State management | Figma	UI/UX design reference  | Isolates Background processing for heavy tasks
