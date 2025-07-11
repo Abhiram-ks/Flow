@@ -1,5 +1,4 @@
 
-import 'dart:developer';
 import 'dart:isolate';
 import '../models/notification_model.dart';
 
@@ -48,8 +47,7 @@ void _isolateEntryPoint(dynamic message) {
         .toList();
 
     sendPort.send(parsed);
-  } catch (e, stack) {
-    log('message: $e, $stack');
+  } catch (e) {
     final sendPort = message['sendPort'] as SendPort;
     sendPort.send('Parsing isolate error: $e');
   }

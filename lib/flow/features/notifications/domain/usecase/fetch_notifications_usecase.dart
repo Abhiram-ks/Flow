@@ -10,5 +10,4 @@ class FetchNotificationsUsecase {
     Future<List<NotificationEntity>> call(int offset, int limit) {
     return repository.getNotifications(offset: offset, limit: limit);
   }
-
 }

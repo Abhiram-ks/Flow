@@ -1,6 +1,7 @@
 
 import 'package:flow/flow/config/theme/app_palette.dart';
 import 'package:flow/flow/core/constant/constant_size.dart';
+import 'package:flow/flow/core/utils/date_formalt.dart';
 import 'package:flow/flow/features/notifications/presentation/bloc/notification_bloc/notification_bloc.dart';
 import 'package:flow/flow/features/notifications/presentation/widgets/notification_imageurl.dart';
 import 'package:flow/flow/features/notifications/presentation/widgets/notification_screen_body.dart' show NotificationScreenBody;
@@ -75,7 +76,7 @@ class NotificationBuilder extends StatelessWidget {
                       imagePath: randomImage,
                       title: item.title,
                       subtitle: item.body,
-                      time: '12 May 2025',
+                      time: DateFormatter.formatTimestamp(item.timestamp),
                       height: widget.height,
                       width: widget.width,
                     ),

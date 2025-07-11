@@ -1,6 +1,5 @@
 
 import 'dart:convert';
-
 import 'package:dio/dio.dart';
 import 'package:flow/flow/features/notifications/data/models/notification_model.dart';
 
