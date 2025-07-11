@@ -1,3 +1,4 @@
+import 'package:flow/flow/config/routes/routes.dart';
 import 'package:flow/flow/core/constant/constant_size.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -20,9 +21,10 @@ class _HomeScreenBodyState extends State<HomeScreenBody> {
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: widget.width * .04),
         child: Column(
+        
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            ConstantWidgets.hight20(context),
+            ConstantWidgets.hight30(context),
             Row(
               children: [
                 Icon(Icons.location_on_rounded, color: AppPalette.mainColor),
@@ -40,7 +42,7 @@ class _HomeScreenBodyState extends State<HomeScreenBody> {
               ],
             ),
             IconButton(onPressed: (){
-              
+             Navigator.pushNamed(context, AppRoutes.notification);
             }, icon: Icon(Icons.notifications_active))
             
           ],

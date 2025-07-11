@@ -1,3 +1,4 @@
+import 'package:flow/flow/config/theme/app_palette.dart';
 import 'package:flow/flow/features/home/presentation/widgets/home_widgets/home_screen_body.dart';
 import 'package:flutter/material.dart';
 
@@ -11,11 +12,15 @@ class HomeScreen extends StatelessWidget {
         final double width = constraints.maxWidth;
         final double height = constraints.maxHeight;
 
-        return SafeArea(
-          child: Scaffold(
-            body:HomeScreenBody(width: width, height: height)
+        return ColoredBox(
+          color: AppPalette.whiteColor,
+          child: SafeArea(
+            child: Scaffold(
+                body:HomeScreenBody(width: width, height: height)
+              ),
           ),
         );
+      
       },
     );
   }
