@@ -7,21 +7,20 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        final double width = constraints.maxWidth;
-        final double height = constraints.maxHeight;
+
+       final double width = MediaQuery.of(context).size.width;
+       final double height = MediaQuery.of(context).size.height;
+
 
         return ColoredBox(
           color: AppPalette.whiteColor,
           child: SafeArea(
             child: Scaffold(
+                resizeToAvoidBottomInset: false,
                 body:HomeScreenBody(width: width, height: height)
               ),
           ),
         );
-      
-      },
-    );
+  
   }
 }

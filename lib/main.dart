@@ -2,7 +2,7 @@ import 'package:flow/flow/config/routes/routes.dart';
 import 'package:flow/flow/config/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'flow/features/home/presentation/bloc/splash_bloc/splash_bloc.dart';
+import 'flow/features/home/presentation/provider/bloc/splash_bloc/splash_bloc.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

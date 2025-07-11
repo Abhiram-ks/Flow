@@ -1,7 +1,7 @@
 import 'package:flow/flow/config/theme/app_palette.dart';
 import 'package:flow/flow/core/constant/constant_size.dart';
 import 'package:flow/flow/core/utils/app_image.dart';
-import 'package:flow/flow/features/home/presentation/bloc/splash_bloc/splash_bloc.dart';
+import 'package:flow/flow/features/home/presentation/provider/bloc/splash_bloc/splash_bloc.dart';
 import 'package:flow/flow/features/home/presentation/widgets/splash_widgets/handle_splash_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

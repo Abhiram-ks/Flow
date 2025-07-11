@@ -7,6 +7,7 @@ class AppPalette {
   /// Hex: #29D177 (a fresh green tone)
   static const mainColor  = Color(0xFF29D177);
   static const grayColor  = Color(0xFFDEDEDE);
+  static const greenColor = Color(0xFF06C25E);
   static const redColor   = Color(0xFFFF0000);
   static const orengeColor= Color(0xFFFFA115);
   static const blackColor = Colors.black;
