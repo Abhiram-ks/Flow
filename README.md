@@ -10,7 +10,7 @@ This project is ideal for demonstrating advanced Flutter skills, including state
 * Two-Screen Navigation: A fully functional Home screen and Notifications screen.
 * Remote JSON Integration: Fetches real-time data from a remote API.
 * Isolate-Based JSON Parsing: Heavy parsing is handled in the background using Dart isolates for maximum performance.
-* Clean Architecture: Layered structure with clear separation between UI, business logic, and data access.
+* Clean Architecture: Layered structure with clear separation between UI, business logic, and data access. 
 * Figma-Based UI: Fully responsive and professionally styled UI implemented from a Figma design. 
 * State Management: Uses Bloc, Provider, or another pattern to manage screen states efficiently.
 * Error Handling: Handles network failures, invalid data, and loading states gracefully.
