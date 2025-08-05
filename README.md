@@ -1,4 +1,4 @@
-![image alt](https://github.com/Abhiram-ks/Flow/blob/dfb5174214c0ef899bc5090731ebd4dc73c6be99/Cavlog%20(2).png)
+![image alt](https://github.com/Abhiram-ks/Flow/blob/230d8b1be91963d1102d0121593e14ce68a7af61/flow%20banner.png)
 
 # flow
 
